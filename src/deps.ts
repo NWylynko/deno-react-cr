@@ -7,8 +7,11 @@ import ReactDOMServer from "https://jspm.dev/react-dom@18.2.0/server";
 // @deno-types="https://denopkg.com/DefinitelyTyped/DefinitelyTyped@14ffce9/types/react-dom/index.d.ts"
 import ReactDOM from "https://jspm.dev/react-dom@18.2.0";
 
+import * as dateFns from "https://jspm.dev/date-fns@2.29.2"
+
 export default React
 export {
   ReactDOMServer,
-  ReactDOM
+  ReactDOM,
+  dateFns
 }
