@@ -18,7 +18,7 @@ export const App = ({ url }: AppProps) => {
         style={{
           display: "flex",
           flexDirection: "column",
-          fontFamily: "'Archivo Narrow', sans-serif;",
+          fontFamily: "'Archivo Narrow', sans-serif",
           fontSize: 24,
           margin: 16,
           backgroundColor: "#FEFCEC",

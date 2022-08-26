@@ -1,6 +1,6 @@
 // yonked and modified from the docs https://deno.land/manual@v1.25.0/examples/http_server
 
-import { serve } from "https://deno.land/std@0.153.0/http/server.ts";
+import { serve } from "./deps.ts"
 import { uuid } from './uuid.ts';
 
 type HttpResponse = {
@@ -57,7 +57,6 @@ export const startHttpServer = async (options: HttpServer) => {
       }
   };
   
-  console.log(`HTTP webserver running. Access it at: http://localhost:${options.port}/`);
   await serve(handler, { port: options.port });
 }
 
