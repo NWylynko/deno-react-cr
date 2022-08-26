@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "deno-react-cr-twitter",
+    "rewrites": [{
+      "source": "**",
+      "run": {
+        "serviceId": "deno-react-cr",
+        "region": "us-central1"
+      }
+    }]
+  }
+}
