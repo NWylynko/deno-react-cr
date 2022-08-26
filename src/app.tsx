@@ -29,7 +29,7 @@ export const App = ({ url }: AppProps) => {
         <span>
           You requested {url} at {time}
         </span>
-        <span>This app is using React DOM Server running in Deno and hosted on Google Cloud Run</span>
+        <span>This app is using React SSR in Deno and hosted on Google Cloud Run</span>
         <span>
           Here is the source code{" "}
           <a href="https://github.com/NWylynko/deno-react-cr" style={{ color: "#0C1A1D" }}>
